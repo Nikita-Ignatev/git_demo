@@ -1,4 +1,4 @@
-require "colorize"
+
 
 @field = [".", ".", ".",
           ".", ".", ".",
@@ -6,6 +6,7 @@ require "colorize"
 
 @isWon = false
 @turn = false
+@test_value = 0
 
 def render
   print @field[0] + " " + @field[1] + " " + @field[2] + "\n"
@@ -16,7 +17,7 @@ end
 
 def cellIsFull
   puts ""
-  puts "Клетка #{@enter} уже занята!".red
+  puts "Клетка #{@enter} уже занята!"
   render()
   puts ""
 end
