@@ -8,6 +8,7 @@
 @turn = false
 @test_value = 1
 @test_for_demo_branch = 1
+@test_for_demo_branch_2 = 2
 
 def render
   print @field[0] + " " + @field[1] + " " + @field[2] + "\n"
